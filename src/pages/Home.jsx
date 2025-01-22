@@ -1,5 +1,5 @@
 export const Home = () => (
-  <section className="min-h-screen bg-gray-100 flex flex-col justify-center items-center">
+  <section className="min-h-screen container-xl lg:container m-auto flex flex-col justify-center items-center">
     <h1 className="text-4xl font-bold">Welcome to My Portfolio</h1>
     <p className="mt-4 text-lg">
       I am a Front-end Developer passionate about creating beautiful and

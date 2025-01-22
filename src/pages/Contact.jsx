@@ -8,9 +8,6 @@ const Contact = () => (
       functional web applications.
     </p>
     <ContactForm />
-    <button className="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-500">
-      <a href="/projects">View My Work</a>
-    </button>
   </section>
 );
 export default Contact;
