@@ -11,7 +11,7 @@ const HomeCard = () => {
             <p className="mt-2 mb-4">
               List of Front-end projects where I developed them by using HTML,
               CSS, JS, Bootstrap, React Js and Tailwind css technologies. Click
-              the button below to see my front-end projects
+              the button below to see my front-end projects.
             </p>
             <Link
               to="/projects"
@@ -25,7 +25,7 @@ const HomeCard = () => {
             <p className="mt-2 mb-4">
               List of back-end projects where I will need to know Js,Express.js,
               MySQL/PostgreSQL,JSON Web Tokens (JWT) for user authentication,and
-              dotenv.
+              dotenv in to back-end projects.
             </p>
             <Link
               to="/projects"
