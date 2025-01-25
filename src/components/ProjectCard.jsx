@@ -6,23 +6,24 @@ const projects = [
     description:
       "A responsive personal portfolio built with React and Tailwind CSS.",
     image:
-      "https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg", // Replace with your project screenshot
+      "https://designnotes.blog.gov.uk/wp-content/uploads/sites/53/2020/06/Portfolio-Desk.jpg", // Replace with your project screenshot
     liveLink: "https://ui-big-project.vercel.app/",
     githubLink: "https://github.com/benidama/portfolio",
   },
   {
     name: "E-Commerce App",
     description: "A modern e-commerce platform with a user-friendly interface.",
-    image: "https://via.placeholder.com/400x300",
-    liveLink: "https://ecommerce-example.com",
-    githubLink: "https://github.com/benidama/ecommerce",
+    image:
+      "https://www.rexoit.com/assets/uploads/media-uploader/e-commerce1618296228.png",
+    liveLink: "https://benidama.github.io/online-shopping-website/",
+    githubLink: "https://github.com/benidama/online-shopping-website",
   },
   {
     name: "Weather App",
     description: "A weather forecasting app using OpenWeather API.",
-    image: "https://via.placeholder.com/400x300",
-    liveLink: "https://weather-example.com",
-    githubLink: "https://github.com/benidama/weather-app",
+    image: "https://cdn-icons-png.flaticon.com/512/3845/3845731.png",
+    liveLink: "https://benidama.github.io/profile-cards/",
+    githubLink: "https://github.com/benidama/profile-cards",
   },
 ];
 
