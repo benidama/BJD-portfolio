@@ -94,32 +94,6 @@ const ContactForm = () => {
             </a>
             .
           </p>
-          <div className="flex justify-center space-x-4 mt-4">
-            <a
-              href="https://linkedin.com/in/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-blue-500 transition"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="https://github.com/benidama"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-blue-500 transition"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://twitter.com/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-blue-500 transition"
-            >
-              Twitter
-            </a>
-          </div>
         </div>
       </main>
     </div>

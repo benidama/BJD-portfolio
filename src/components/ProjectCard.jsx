@@ -1,41 +1,39 @@
 import React from "react";
-
-const projects = [
-  {
-    name: "Portfolio Website",
-    description:
-      "A responsive personal portfolio built with React and Tailwind CSS.",
-    image:
-      "https://designnotes.blog.gov.uk/wp-content/uploads/sites/53/2020/06/Portfolio-Desk.jpg", // Replace with your project screenshot
-    liveLink: "https://ui-big-project.vercel.app/",
-    githubLink: "https://github.com/benidama/portfolio",
-  },
-  {
-    name: "E-Commerce App",
-    description: "A modern e-commerce platform with a user-friendly interface.",
-    image:
-      "https://www.rexoit.com/assets/uploads/media-uploader/e-commerce1618296228.png",
-    liveLink: "https://all-about-react-js.vercel.app/",
-    githubLink: "https://github.com/benidama/allAbout-ReactJS",
-  },
-  {
-    name: "Small website",
-    description: "It shows you all our products and how you can get it.",
-    image:
-      "https://img.freepik.com/free-vector/business-landing-page-template-with-photo_23-2148246289.jpg?semt=ais_hybrids",
-    liveLink: "https://benidama.github.io/online-shopping-website/",
-    githubLink: "https://github.com/benidama/online-shopping-website",
-  },
-  {
-    name: "Weather App",
-    description: "A weather forecasting app using OpenWeather API.",
-    image: "https://cdn-icons-png.flaticon.com/512/3845/3845731.png",
-    liveLink: "https://benidama.github.io/profile-cards/",
-    githubLink: "https://github.com/benidama/profile-cards",
-  },
-];
+import portfolio from "../images/portfolio.jpg";
 
 const ProjectCard = () => {
+  const projects = [
+    {
+      name: "Portfolio Website",
+      description:
+        "A responsive personal portfolio built with React and Tailwind CSS.",
+      // image: " portfolio ",
+      liveLink: "https://ui-big-project.vercel.app/",
+      githubLink: "https://github.com/benidama/portfolio",
+    },
+    {
+      name: "E-Commerce App",
+      description:
+        "A modern e-commerce platform with a user-friendly interface.",
+      // image: " commerce",
+      liveLink: "https://all-about-react-js.vercel.app/",
+      githubLink: "https://github.com/benidama/allAbout-ReactJS",
+    },
+    {
+      name: "Small website",
+      description: "It shows you all our products and how you can get it.",
+      // image: "small ",
+      liveLink: "https://benidama.github.io/online-shopping-website/",
+      githubLink: "https://github.com/benidama/online-shopping-website",
+    },
+    {
+      name: "Weather App",
+      description: "A weather forecasting app using OpenWeather API.",
+      // image: <weather/>,
+      liveLink: "https://benidama.github.io/profile-cards/",
+      githubLink: "https://github.com/benidama/profile-cards",
+    },
+  ];
   return (
     <div className="min-h-screen bg-gray-100 p-6">
       <header className="text-center my-8">
@@ -51,7 +49,7 @@ const ProjectCard = () => {
             className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
           >
             <img
-              src={project.image}
+              src={portfolio}
               alt={project.name}
               className="w-full h-48 object-cover"
             />
