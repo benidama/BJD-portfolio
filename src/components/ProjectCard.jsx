@@ -15,6 +15,14 @@ const projects = [
     description: "A modern e-commerce platform with a user-friendly interface.",
     image:
       "https://www.rexoit.com/assets/uploads/media-uploader/e-commerce1618296228.png",
+    liveLink: "https://all-about-react-js.vercel.app/",
+    githubLink: "https://github.com/benidama/allAbout-ReactJS",
+  },
+  {
+    name: "Small website",
+    description: "It shows you all our products and how you can get it.",
+    image:
+      "https://img.freepik.com/free-vector/business-landing-page-template-with-photo_23-2148246289.jpg?semt=ais_hybrids",
     liveLink: "https://benidama.github.io/online-shopping-website/",
     githubLink: "https://github.com/benidama/online-shopping-website",
   },
