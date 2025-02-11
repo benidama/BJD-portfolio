@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 import fb from "../images/footer/Facebook.png";
 import ig from "../images/footer/Instagram.png";
 import x from "../images/footer/Twitter.png";
@@ -18,29 +20,29 @@ function Footer() {
             </li>
 
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="https://bjd-portfolio.vercel.app/about"
+                to="/about"
               >
                 Why Choose us
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="https://bjd-portfolio.vercel.app/about"
+                to="/about"
               >
                 About Us
-              </a>
+              </NavLink>
             </li>
 
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/projects"
+                to="/projects"
               >
                 Testimonial
-              </a>
+              </NavLink>
             </li>
 
             <li className="pt-5">
@@ -63,36 +65,36 @@ function Footer() {
               </h1>
             </li>
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="about"
+                to="/about"
               >
                 Privacy Policy
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/"
+                to="/"
               >
                 Terms and Condition
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/projects"
+                to="/projects"
               >
                 Blog
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/projects"
+                to="/projects"
               >
                 Contact Us
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -105,37 +107,37 @@ function Footer() {
               </h1>
             </li>
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/about"
+                to="/about"
               >
                 Project management
-              </a>
+              </NavLink>
             </li>
 
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/"
+                to="/"
               >
                 Time schedule
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-normal text-xs"
-                href="/"
+                to="/"
               >
                 Lead generate
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a
+              <NavLink
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/contact"
+                to="/contact"
               >
                 Remote Collaboration
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>
