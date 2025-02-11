@@ -10,7 +10,7 @@ function Footer() {
   const date = new Date().getFullYear();
   return (
     <footer className="bg-[rgba(29,33,48,1)] flex flex-col gap-5 p-10 justify-center items-center">
-      <div className="flex flex-row justify-between items-start gap-24">
+      <div className="flex flex-col md:flex-row justify-between items-start gap-10 md:gap-24">
         <div className="flex flex-col justify-between items-start">
           <ul className="flex flex-col justify-center items-start gap-1">
             <li>
@@ -165,7 +165,7 @@ function Footer() {
         </div>
       </div>
       <div className="flex flex-row justify-center items-center gap-3">
-        <hr className="border-[rgba(136,136,136,1)] border-[1px] w-[350px]" />
+        <hr className="border-[rgba(136,136,136,1)] border-[1px] w-[25px] md:w-[350px]" />
         <h4 className="text-[rgba(255,255,255,1)] font-light text-xs">
           © Copyright Jean Damascene {date}
         </h4>
@@ -190,7 +190,7 @@ function Footer() {
         >
           <img src={linkedIn} alt="LinkedIn logo" />
         </a>
-        <hr className="border-[rgba(136,136,136,1)] boInstagram logorder-[1px] w-[350px]" />
+        <hr className="border-[rgba(136,136,136,1)] border-[1px] w-[25px] md:w-[350px]" />
       </div>
     </footer>
   );
