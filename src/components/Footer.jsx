@@ -20,7 +20,7 @@ function Footer() {
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/about"
+                href="https://bjd-portfolio.vercel.app/about"
               >
                 Why Choose us
               </a>
@@ -28,7 +28,7 @@ function Footer() {
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/about"
+                href="https://bjd-portfolio.vercel.app/about"
               >
                 About Us
               </a>
@@ -65,7 +65,7 @@ function Footer() {
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="/about"
+                href="about"
               >
                 Privacy Policy
               </a>
