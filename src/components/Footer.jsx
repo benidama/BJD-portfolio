@@ -169,10 +169,27 @@ function Footer() {
         <h4 className="text-[rgba(255,255,255,1)] font-light text-xs">
           © Copyright Jean Damascene {date}
         </h4>
-        <img src={fb} alt="Facebook logo" />
-        <img src={x} alt="Twitter logo" />
-        <img src={ig} alt="Instagram logo" />
-        <img src={linkedIn} alt="LinkedIn logo" />
+        <a href="https://www.facebook.com/share/1HB7rqeN6Y/" target="_blank">
+          <img src={fb} alt="Facebook logo" />
+        </a>
+        <a
+          href="https://x.com/BenimanaJeanDa1?t=Yl_XBHHPZAWc8EXt7zr7Ag&s=09"
+          target="_blank"
+        >
+          <img src={x} alt="Twitter logo" />
+        </a>
+        <a
+          href="https://www.instagram.com/beni_dama?igsh=Y2ZwZTdtZGM1MTYw"
+          target="_blank"
+        >
+          <img src={ig} alt="Instagram logo" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jean-damascene-benimana-9001b7209/"
+          target="_blank"
+        >
+          <img src={linkedIn} alt="LinkedIn logo" />
+        </a>
         <hr className="border-[rgba(136,136,136,1)] boInstagram logorder-[1px] w-[350px]" />
       </div>
     </footer>

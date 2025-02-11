@@ -23,9 +23,10 @@ const HomeCard = () => {
           <Card bg="bg-indigo-100">
             <h2 className="text-2xl font-bold">For Back-end Projects</h2>
             <p className="mt-2 mb-4">
-              List of back-end projects where I will need to know Js,Express.js,
+              List of back-end projects where I will need to know Express.js,
               MySQL/PostgreSQL,JSON Web Tokens (JWT) for user authentication,and
-              dotenv in to back-end projects.
+              dotenv in to back-end projects.Even if I have some basic
+              knowledge's
             </p>
             <Link
               to="/projects"

@@ -3,11 +3,11 @@ import { useState } from "react";
 
 const Hero = ({ title = "Hi, Welcome to My Portfolio" }) => {
   let paragraph =
-    "I'am Jean Damascene BENIMANA, a passionate Front-End Developer with a knack for crafting visually appealing, user-friendly, and responsive web applications. With expertise in HTML, CSS (Tailwind CSS), JavaScript, React js, and basic knowledge on node js. I bring ideas to life through clean, efficient code and intuitive designs. Whether it's building interactive interfaces or solving complex UI challenges, I’m committed to delivering seamless user experiences.";
+    "I'am Jean Damascene BENIMANA, a passionate Front-End Developer with a knack for crafting visually appealing, user-friendly, and responsive web applications. With expertise in HTML, CSS (Tailwind CSS), JavaScript, React js, and basic knowledge on node js or back-end. I bring ideas to life through clean, efficient code and intuitive designs. Whether it's building interactive interfaces or solving complex UI challenges, I’m committed to delivering seamless user experiences.";
 
   const [showMore, setShowMore] = useState(false);
   if (!showMore) {
-    paragraph = paragraph.substring(0, 300) + "...";
+    paragraph = paragraph.substring(0, 370) + "...";
   }
 
   return (
@@ -33,7 +33,7 @@ const Hero = ({ title = "Hi, Welcome to My Portfolio" }) => {
               {paragraph}
               <span
                 onClick={() => setShowMore((prevState) => !prevState)}
-                className="text-cyan-400 mb-5 hover:text-pink-600 text-2xl pl-3 underline"
+                className="text-cyan-400 mb-5 hover:text-pink-600 text-xl pl-3 underline"
               >
                 {showMore ? "Less Info" : "More Info"}
               </span>

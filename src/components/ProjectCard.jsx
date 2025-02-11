@@ -8,30 +8,48 @@ const ProjectCard = () => {
       description:
         "A responsive personal portfolio built with React and Tailwind CSS.",
       // image: " portfolio ",
-      liveLink: "https://ui-big-project.vercel.app/",
-      githubLink: "https://github.com/benidama/portfolio",
+      liveLink: "https://bjd-portfolio.vercel.app/",
+      githubLink: "https://github.com/benidama/BJD-portfolio",
     },
     {
-      name: "E-Commerce App",
+      name: "Commerce App",
       description:
-        "A modern e-commerce platform with a user-friendly interface.",
+        "A modern commerce platform with a user-friendly interface. Moreover, it is still under development project",
       // image: " commerce",
       liveLink: "https://all-about-react-js.vercel.app/",
       githubLink: "https://github.com/benidama/allAbout-ReactJS",
     },
     {
-      name: "Small website",
-      description: "It shows you all our products and how you can get it.",
-      // image: "small ",
-      liveLink: "https://benidama.github.io/online-shopping-website/",
-      githubLink: "https://github.com/benidama/online-shopping-website",
+      name: "Quiz App",
+      description:
+        "After submitting your work you get points. where, questions come randomly",
+      // image: " commerce",
+      liveLink: "https://react-quiz-app-five-gamma.vercel.app/",
+      githubLink: "https://github.com/benidama/React-quiz-app",
     },
     {
-      name: "Weather App",
-      description: "A weather forecasting app using OpenWeather API.",
+      name: "Form validation",
+      description:
+        "This form will help us to get user information. Moreover, it is still under development project",
+      // image: "small ",
+      liveLink: "https://benidama.github.io/Registration-form/",
+      githubLink: "https://github.com/benidama/Registration-form",
+    },
+    {
+      name: "Job listing app",
+      description:
+        "This app help us to get react job or adding new jobs also you can edit or delete a job",
       // image: <weather/>,
-      liveLink: "https://benidama.github.io/profile-cards/",
-      githubLink: "https://github.com/benidama/profile-cards",
+      liveLink: "https://react-jobs-gray.vercel.app/",
+      githubLink: "https://github.com/benidama/React-jobs",
+    },
+    {
+      name: "Filter object app",
+      description:
+        "This app help us to get react job or adding new jobs also you can edit or delete a job",
+      // image: <weather/>,
+      liveLink: "https://benidama.github.io/Filfterobject/filer.html",
+      githubLink: "https://github.com/benidama/Filfterobject",
     },
   ];
   return (
@@ -64,7 +82,7 @@ const ProjectCard = () => {
                   target="_blank"
                   className="text-blue-500 hover:underline"
                 >
-                  Live Demo
+                  Read More
                 </a>
                 <a
                   href={project.githubLink}
