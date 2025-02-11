@@ -12,16 +12,15 @@ function Footer() {
         <div className="flex flex-col justify-between items-start">
           <ul className="flex flex-col justify-center items-start gap-1">
             <li>
-              <h1 className="text-[rgba(255,255,255,1)] font-normal text-sm">
-                Company
+              <h1 className="text-[rgba(255,255,255,1)] font-normal text-xl">
+                Project
               </h1>
             </li>
 
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/about"
               >
                 Why Choose us
               </a>
@@ -29,28 +28,28 @@ function Footer() {
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/about"
               >
                 About Us
               </a>
             </li>
+
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
-              >
-                Pricing
-              </a>
-            </li>
-            <li>
-              <a
-                className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/projects"
               >
                 Testimonial
+              </a>
+            </li>
+
+            <li className="pt-5">
+              <a
+                className="text-red-400 font-light text-xl"
+                href="https://forms.gle/3YZRCicXGNQ2Moyx9"
+                target="_blank"
+              >
+                Your comment
               </a>
             </li>
           </ul>
@@ -59,15 +58,14 @@ function Footer() {
         <div className="flex flex-col justify-center items-start">
           <ul className="flex flex-col justify-center items-start gap-1">
             <li>
-              <h1 className="text-[rgba(255,255,255,1)] font-normal text-sm">
+              <h1 className="text-[rgba(255,255,255,1)] font-normal text-xl">
                 Resources
               </h1>
             </li>
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/about"
               >
                 Privacy Policy
               </a>
@@ -75,8 +73,7 @@ function Footer() {
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/"
               >
                 Terms and Condition
               </a>
@@ -84,8 +81,7 @@ function Footer() {
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/projects"
               >
                 Blog
               </a>
@@ -93,8 +89,7 @@ function Footer() {
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/projects"
               >
                 Contact Us
               </a>
@@ -105,33 +100,23 @@ function Footer() {
         <div className="flex flex-col justify-center items-start">
           <ul className="flex flex-col justify-center items-start gap-1">
             <li>
-              <h1 className="text-[rgba(255,255,255,1)] font-normal text-sm">
-                Product
+              <h1 className="text-[rgba(255,255,255,1)] font-normal text-xl">
+                Others
               </h1>
             </li>
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/about"
               >
-                Project managment
+                Project management
               </a>
             </li>
+
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
-              >
-                Time tracker
-              </a>
-            </li>
-            <li>
-              <a
-                className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/"
               >
                 Time schedule
               </a>
@@ -139,8 +124,7 @@ function Footer() {
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-normal text-xs"
-                href="http://"
-                target="_blank"
+                href="/"
               >
                 Lead generate
               </a>
@@ -148,8 +132,7 @@ function Footer() {
             <li>
               <a
                 className="text-[rgba(255,255,255,1)] font-light text-xs"
-                href="http://"
-                target="_blank"
+                href="/contact"
               >
                 Remote Collaboration
               </a>

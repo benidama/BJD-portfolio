@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Info = () => {
   return (
@@ -46,11 +47,11 @@ const Info = () => {
               React JS
             </span>
 
-            <a className="mt-3" href="/projects">
+            <Link className="mt-3" to="/projects">
               <span className="bg-indigo-700 p-4 rounded-lg text-white shadow-md text-center">
                 View my work
               </span>
-            </a>
+            </Link>
 
             <a
               className="mt-3"
