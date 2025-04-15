@@ -26,7 +26,7 @@ const HomeCard = () => {
               List of back-end projects where I will need to know Express.js,
               MySQL/PostgreSQL,JSON Web Tokens (JWT) for user authentication,and
               dotenv in to back-end projects.Even if I have some basic
-              knowledge's
+              knowledge.
             </p>
             <Link
               to="/projects"

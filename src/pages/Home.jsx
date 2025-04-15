@@ -1,14 +1,17 @@
 import Hero from "../components/Hero";
 import HomeCard from "../components/HomeCard";
 
-export const Home = () => (
-  <section className="min-h-screen container-xl lg:container m-auto flex flex-col justify-center items-center">
+const Home = () => (
+  <section className="min-h-screen px-4 py-8 mx-auto max-w-7xl flex flex-col justify-center items-center">
     <Hero />
-    <p className="mt-4 text-lg pl-2 pr-2">
+    <p className="mt-4 text-base sm:text-lg md:text-xl text-center text-gray-700">
       I am a Front-end Developer passionate about creating beautiful and
       functional web applications.
     </p>
-    <HomeCard />
+    <div className="w-full mt-5">
+      <HomeCard />
+    </div>
   </section>
 );
+
 export default Home;

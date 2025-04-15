@@ -6,15 +6,15 @@ const Hero = () => {
 
   return (
     <section className="bg-indigo-700 py-10 mb-4 mt-4 flex flex-col md:flex-row md:rounded-3xl items-center md:items-start">
-      <div className="text-center max-w-3xl md:pl-3">
+      <div className="text-center max-w-3xl md:pl-3 space-y-3">
+        <p className="text-center text-xl text-white leading-4 mt-2 w-full">
+          Software Developer
+        </p>
         <img
-          className="w-full max-w-[250px] h-auto rounded-3xl"
+          className="w-full max-w-[250px] h-auto rounded-full"
           src={profile}
           alt="My profile"
         />
-        <p className="text-center text-xl text-white mt-2 w-full">
-          Software Developer
-        </p>
       </div>
       <div className="max-w-7xl mx-5 px-4 sm:px-6 lg:px-8 flex flex-col items-center">
         <div className="text-center">
