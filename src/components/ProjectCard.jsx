@@ -1,8 +1,8 @@
 import portfolio from "../images/portfolio.jpg";
 import commerce from "../images/ecommerce.jpg";
-import job from "../images/job.jpg";
-import filter from "../images/filter.jpg";
 import quiz from "../images/quiz.jpg";
+import filter from "../images/filter.jpg";
+import job from "../images/jobs.jpg";
 import form from "../images/form.jpg";
 
 const ProjectCard = () => {
@@ -54,7 +54,7 @@ const ProjectCard = () => {
     <div className="min-h-screen bg-gray-100 p-6">
       <header className="text-center my-8">
         <p className="text-gray-600 mt-2">
-          Here are some of the projects I've worked on.
+          Here are some of the projects I have worked on.
         </p>
       </header>
       <main className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
