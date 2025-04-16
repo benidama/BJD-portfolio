@@ -55,7 +55,7 @@ const Info = () => {
 
             <a
               className="mt-3"
-              href="https://drive.google.com/file/d/1mVcqagHWoSNi_BcePoivGmTYwI4j5EoO/view?usp=sharing"
+              href="https://drive.google.com/file/d/1WvOw_pTuYPtZuKYHJQvUsuNn75V9zf0g/view?usp=drivesdk"
               target="_blank"
             >
               <span className="bg-indigo-700 p-4 rounded-lg text-white shadow-md text-center">
