@@ -5,7 +5,6 @@ const Projects = () => (
     <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl pt-3 font-bold">
       Welcome to My Projects
     </h1>
-
     <ProjectCard />
   </section>
 );

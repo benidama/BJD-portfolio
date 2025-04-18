@@ -29,7 +29,7 @@ const HomeCard = () => {
               knowledge.
             </p>
             <Link
-              to="/projects"
+              to="*"
               className="inline-block bg-indigo-500 text-white rounded-lg px-4 py-2 hover:bg-indigo-600"
             >
               Back-end Projects
