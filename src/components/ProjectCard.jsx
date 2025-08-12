@@ -33,7 +33,7 @@ const ProjectCard = () => {
       description:
         "For this app, you need to login by using Admin as username and Estote123 as password",
       image: form,
-      liveLink: "https://i-huzo-invertory-solvit.vercel.app/login",
+      liveLink: "https://i-huzo-invertory-solvit.vercel.app/",
     },
     {
       name: "Job listing app",
