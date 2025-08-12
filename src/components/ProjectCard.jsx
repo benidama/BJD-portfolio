@@ -29,11 +29,11 @@ const ProjectCard = () => {
       liveLink: "https://react-quiz-app-five-gamma.vercel.app/",
     },
     {
-      name: "Form validation",
+      name: "iHUZA INVENTORY",
       description:
-        "This form will help us to get user information. Moreover, it is still under development project",
+        "For this app, you need to login by using Admin as username and Estote123 as password",
       image: form,
-      liveLink: "https://benidama.github.io/Registration-form/",
+      liveLink: "https://i-huzo-invertory-solvit.vercel.app/login",
     },
     {
       name: "Job listing app",
@@ -43,11 +43,11 @@ const ProjectCard = () => {
       liveLink: "https://react-jobs-gray.vercel.app/",
     },
     {
-      name: "Filter object app",
+      name: "Time Tracker app",
       description:
-        "This app help us to get react job or adding new jobs also you can edit or delete a job",
+        "It’s an app for users that tracks how you spend your time—categorizing tasks, spotting distractions, and helping you build better work habits—while keeping all your data private and stored on your device.",
       image: filter,
-      liveLink: "https://benidama.github.io/Filfterobject/filer.html",
+      liveLink: "https://time-mgmt-tracker-solvit.vercel.app/",
     },
   ];
   return (
